@@ -1,0 +1,99 @@
+body {
+     margin: 0;
+     padding: : 0;
+     background-color: #000000;
+     color: #2bff00;
+     text-align: center;
+}
+
+#main {
+     font-family: 'Lucida COnsole';
+     color: #2bff00);
+}
+
+.topHalf {
+     margin: auto;
+     width: 13%;
+     border: 1px solid #2bff00;
+     padding: 10px;
+}
+
+button, .submitBtn {
+     color: #2bff00;
+     background-color: #7c7c7c;
+}
+
+#firstNumber, #operator, #secondNumber {
+     font-size: 30px;
+     text-align: center;
+}
+
+.bottomHalf {
+     margin: auto;
+     width: 13%;
+     border: 1px solid #2bff00;
+     padding: 10px;
+}
+
+.class div {
+     position: relative;
+     margin: auto;
+}
+
+#givenNumbers {
+     color: #ff0000
+}
+
+#operator {
+     color: #e37e7e
+}
+
+#equals {
+     color: #FFFFFF;
+}
+
+input {
+     height: 20px;
+     width: 100px;
+     font-size: 20px;
+     padding: 1px;
+     align: middle;
+}
+
+.submitBtn {
+     -webkit-appearance: none;
+     font-family: "Lucida Console";
+     font-size: 18px;
+     border-color: #999;
+}
+
+#answerWindow {
+     width: 50%;
+     margin: 0 auto;
+     font-size: 35px;
+     color: #f2ff00;
+}
+
+.submitBtn {
+     height: 40px;
+     width: 80px;
+     border-radius: 7px;
+}
+
+#buttons > button {
+     border-radius: 7px;
+     height: 80px;
+     width: 80px;
+     font-size: 24px;
+}
+
+#btn-zero {
+     margin-left: -5%;
+}
+
+#results {
+     width: 33%;
+     margin: 0 auto;
+     align-content: center;
+     color: #ff0000;
+}
