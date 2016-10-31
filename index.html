@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+  <title>Arithmetic Game</title>
+</head>
+
+<body>
+  <div id="main">
+    <h1>Arithmetic Game:
+      <span id="results"></span>
+    </h1>
+    <hr>
+  </div>
+
+  <div id="problem" class="topHalf">
+    <div id="probTopHalf">
+      <span id="firstNumber">[first num]</span>
+      <span id="operator">[operator]</span>
+      <span id="secondNumber">[second num]</span>
+      <span id="equals">=</span>
+      <input type="text" name="answerField" id="answerField" placeholder="?" size="10" pattern="[0-9]{3}" title="Max of 3 numbers">
+    </div>
+    <br>
+    <div id="probBottomHalf">
+      <input class="submitBtn" id="clearBtn" type="submit" value="CLEAR">
+      <input class="submitBtn" id="submitBtn" type="submit" value="SUBMIT">
+      <input class="submitBtn" id="skipBtn" type="submit" value="SKIP">
+    </div>
+  </div>
+
+  <br>
+
+  <div id="buttons" class="bottomHalf">
+    <button class="num">1</button>
+    <button class="num">2</button>
+    <button class="num">3</button>
+    <br>
+    <button class="num">4</button>
+    <button class="num">5</button>
+    <button class="num">6</button>
+    <br>
+    <button class="num">7</button>
+    <button class="num">8</button>
+    <button class="num">9</button>
+    <br>
+    <button id="sign">+/-</button>
+    <button class="num">0</button>
+    <button id="decimal">.</button>
+  </div>
+</div>
+<script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
